@@ -5,7 +5,23 @@ public class Product {
 	int productId;
 	String productName;
 	String produtDesription;
+  
+
 	
+
+	int quantity;
+	double price;
+	
+	
+	public double getprice()
+	{
+		return price;
+	}
+	public int getQuantity()
+	{
+		return quantity;
+	}
+
 	
 	public int getProductId() {
 		return productId;
