@@ -5,12 +5,7 @@ public class Product {
 	int productId;
 	String productName;
 	String produtDesription;
-	int quantity;
 	
-	public int getQuantity()
-	{
-		return quantity;
-	}
 	
 	public int getProductId() {
 		return productId;
